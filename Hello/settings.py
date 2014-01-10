@@ -1,5 +1,5 @@
 """
-Django settings for Hello1 project.
+Django settings for Hello project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -47,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'Hello1.urls'
+ROOT_URLCONF = 'Hello.urls'
 
-WSGI_APPLICATION = 'Hello1.wsgi.application'
+WSGI_APPLICATION = 'Hello.wsgi.application'
 
 
 # Database
