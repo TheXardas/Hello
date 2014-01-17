@@ -1,0 +1,10 @@
+Sheeeeeeeeeeeeeeeeeeit!<br/>
+This is a super poll card!
+<h1>{{ poll }}</h1>
+<ul>
+{% for choice in poll.choice_set.all %}
+    <li>
+        <input type="radio" name="choice"> {{ choice }} </input>
+    </li>
+{% endfor %}
+</ul>
